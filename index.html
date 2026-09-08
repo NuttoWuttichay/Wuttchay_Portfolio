@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wuttichay Phonkunthod | Web & Software Developer</title>
+<meta name="description" content="Portfolio of Wuttichay Phonkunthod — Web/Software Developer and RPA & AI Automation Developer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>">
+</head>
+<body>
+
+<div class="progress-bar" id="progressBar"></div>
+
+<header class="navbar" id="navbar">
+  <div class="container nav-inner">
+    <a href="#home" class="logo">WP<span>.</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact" class="btn-nav">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="container hero-inner">
+      <div class="hero-text reveal">
+        <p class="eyebrow">Hi, I'm</p>
+        <h1>Wuttichay <span class="accent">Phonkunthod</span></h1>
+        <p class="thai-name">วุฒิชัย พลขุนทด</p>
+        <p class="role-line">
+          <span class="typed" id="typed"></span>
+        </p>
+        <p class="hero-desc">
+          2nd-year ICT student at Sripatum University with a foundation in web development,
+          networking, and RPA/AI automation — building software and workflow solutions
+          that make organizations more efficient.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-outline">Get In Touch</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://github.com/NuttoWuttichay" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.8 1.18 1.83 1.18 3.09 0 4.43-2.69 5.4-5.25 5.69.41.36.78 1.06.78 2.14 0 1.55-.01 2.79-.01 3.17 0 .32.21.67.8.56A10.51 10.51 0 0 0 23.5 12c0-6.35-5.15-11.5-11.5-11.5Z"/></svg>
+          </a>
+          <a href="mailto:Nutto.wuttichay14@gmail.com" aria-label="Email">
+            <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M2 5.5A2.5 2.5 0 0 1 4.5 3h15A2.5 2.5 0 0 1 22 5.5v13a2.5 2.5 0 0 1-2.5 2.5h-15A2.5 2.5 0 0 1 2 18.5v-13Zm2.2.5 7.3 6.1a1.5 1.5 0 0 0 1.9 0L20.8 6H4.2Z"/></svg>
+          </a>
+          <a href="tel:+66909610635" aria-label="Phone">
+            <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.4 0 .8-.2 1L6.6 10.8Z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="hero-photo reveal">
+        <div class="photo-ring">
+          <div class="photo-placeholder">WP</div>
+        </div>
+        <div class="badge badge-1">GPAX 3.82</div>
+        <div class="badge badge-2">🤖 RPA & AI</div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-cue" aria-label="Scroll down"><span></span></a>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <p class="section-tag reveal">About Me</p>
+      <h2 class="section-title reveal">Turning ideas into working software</h2>
+      <div class="about-grid">
+        <p class="about-text reveal">
+          I'm a 2nd-year Information and Communication Technology student at
+          <strong>Sripatum University</strong>, preparing for my 3rd-year internship, and a graduate
+          of the Computer Software Developer program at <strong>Thai Austrian Technical College (TATC)</strong>.
+          I'm motivated to build a career as a <strong>Web / Software Developer</strong> and
+          <strong>RPA & AI Automation Developer</strong>.
+        </p>
+        <p class="about-text reveal">
+          I have a solid foundation in web development and computer networking, and I enjoy
+          combining that with <strong>RPA, AI, and workflow automation</strong> (UiPath, n8n, prompt
+          engineering) to design software and automation that helps organizations work more
+          efficiently in the digital era.
+        </p>
+        <div class="about-stats reveal">
+          <div class="stat">
+            <span class="stat-num" data-count="3.82">0</span>
+            <span class="stat-label">Current GPAX</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num" data-count="8">0</span>
+            <span class="stat-label">Months of internship</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num" data-count="10">0</span>
+            <span class="stat-label">Public GitHub repos</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <p class="section-tag reveal">What I Work With</p>
+      <h2 class="section-title reveal">Skills & Tools</h2>
+      <div class="skills-grid">
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">🛠️</div>
+          <h3>Developer Skills</h3>
+          <div class="tags">
+            <span>HTML</span><span>CSS</span><span>PHP</span>
+            <span>JavaScript</span><span>SQL</span><span>Python</span><span>C#</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">🤖</div>
+          <h3>Automation & AI</h3>
+          <div class="tags">
+            <span>UiPath</span><span>n8n</span><span>Prompt Engineering</span>
+            <span>Machine Learning</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">📊</div>
+          <h3>Data & Tools</h3>
+          <div class="tags">
+            <span>Data Analytics</span><span>Microsoft Excel</span><span>Networking</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">🌐</div>
+          <h3>Languages</h3>
+          <div class="tags">
+            <span>Thai — Native</span><span>English — Good</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section">
+    <div class="container">
+      <p class="section-tag reveal">Career So Far</p>
+      <h2 class="section-title reveal">Experience</h2>
+
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2023 · 4-month Internship</span>
+            <h3>IT Support</h3>
+            <p class="timeline-org">Abhakornkiatiwong Hospital</p>
+            <ul>
+              <li>Developed, maintained, and optimized websites and IT database systems.</li>
+              <li>Monitored network stability and provided rapid IT technical support for users.</li>
+              <li>Performed repairs, inspections, and routine maintenance on computer hardware and peripherals.</li>
+              <li>Managed hardware installations and prepared IT equipment for conference rooms.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2021 · 4-month Internship</span>
+            <h3>Computer Technician</h3>
+            <p class="timeline-org">Pattaya2U</p>
+            <ul>
+              <li>Performed hardware maintenance and cleaning of computers and laptops.</li>
+              <li>Inspected and repaired faulty computer systems.</li>
+              <li>Assembled computer hardware and installed necessary software.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section section-alt">
+    <div class="container">
+      <p class="section-tag reveal">Selected Work</p>
+      <h2 class="section-title reveal">Projects</h2>
+      <p class="section-sub reveal">Featured projects plus a live pull from my GitHub — <a href="https://github.com/NuttoWuttichay" target="_blank" rel="noopener">@NuttoWuttichay</a></p>
+
+      <div class="projects-grid">
+
+        <article class="project-card featured reveal">
+          <div class="project-top">
+            <span class="project-badge">Featured · 2026</span>
+          </div>
+          <h3>ICT Showcase 2026</h3>
+          <p>Automated bank slip amount verification system with real-time LINE notifications, powered by Machine Learning.</p>
+          <div class="tags"><span>Machine Learning</span><span>LINE API</span><span>Automation</span></div>
+        </article>
+
+        <article class="project-card featured reveal">
+          <div class="project-top">
+            <span class="project-badge">Featured · Cloud Computing</span>
+          </div>
+          <h3>EduVault</h3>
+          <p>Cloud-based Learning Management System built as part of a Cloud Computing project.</p>
+          <div class="tags"><span>Cloud</span><span>LMS</span><span>Web App</span></div>
+        </article>
+
+        <article class="project-card reveal">
+          <h3>MaChillCafeCat</h3>
+          <p>A café-themed website project with an interactive frontend.</p>
+          <div class="tags"><span>JavaScript</span></div>
+          <div class="project-links">
+            <a href="https://github.com/NuttoWuttichay/MaChillCafeCat-67.github.io" target="_blank" rel="noopener">Code</a>
+            <a href="https://nuttowuttichay.github.io/MaChillCafeCat-67.github.io/" target="_blank" rel="noopener">Live Demo →</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <h3>Industrial Website</h3>
+          <p>A responsive company/industrial-style website built with HTML, CSS, and JavaScript.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span></div>
+          <div class="project-links">
+            <a href="https://github.com/NuttoWuttichay/Industrial-Website" target="_blank" rel="noopener">Code</a>
+            <a href="https://nuttowuttichay.github.io/Industrial-Website/" target="_blank" rel="noopener">Live Demo →</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <h3>Project Mae Ploysai</h3>
+          <p>A PHP-based web application project with database-driven functionality.</p>
+          <div class="tags"><span>PHP</span><span>SQL</span></div>
+          <div class="project-links">
+            <a href="https://github.com/NuttoWuttichay/Project_Mae_Ploysai" target="_blank" rel="noopener">Code</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <h3>Vue IT42</h3>
+          <p>A frontend project built with the Vue.js framework.</p>
+          <div class="tags"><span>Vue.js</span></div>
+          <div class="project-links">
+            <a href="https://github.com/NuttoWuttichay/vue-it42" target="_blank" rel="noopener">Code</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <h3>Mini Project: KFC</h3>
+          <p>A styled landing/mini-project page focused on layout and CSS design.</p>
+          <div class="tags"><span>CSS</span><span>HTML</span></div>
+          <div class="project-links">
+            <a href="https://github.com/NuttoWuttichay/MiniProject_KFC" target="_blank" rel="noopener">Code</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <h3>WebDesign</h3>
+          <p>Early web design coursework focused on HTML/CSS layout fundamentals.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span></div>
+          <div class="project-links">
+            <a href="https://github.com/NuttoWuttichay/WebDesign" target="_blank" rel="noopener">Code</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <h3>Repair Report</h3>
+          <p>A small JavaScript utility/app for tracking and reporting equipment repairs.</p>
+          <div class="tags"><span>JavaScript</span></div>
+          <div class="project-links">
+            <a href="https://github.com/NuttoWuttichay/Repair_Report" target="_blank" rel="noopener">Code</a>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="projects-more reveal">
+        <a href="https://github.com/NuttoWuttichay?tab=repositories" target="_blank" rel="noopener" class="btn btn-outline">See all repositories on GitHub →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section">
+    <div class="container">
+      <p class="section-tag reveal">Academic Background</p>
+      <h2 class="section-title reveal">Education</h2>
+
+      <div class="edu-grid">
+        <div class="edu-card reveal">
+          <span class="edu-year">2024 – Present</span>
+          <h3>Sripatum University (SPU)</h3>
+          <p class="edu-major">B.Sc. Information and Communication Technology</p>
+          <p class="edu-faculty">Faculty of Information Technology</p>
+          <span class="edu-gpa">GPAX: 3.82</span>
+        </div>
+
+        <div class="edu-card reveal">
+          <span class="edu-year">2022 – 2024</span>
+          <h3>Thai Austrian Technical College (TATC)</h3>
+          <p class="edu-major">Computer Software Developer</p>
+          <p class="edu-faculty">Information Technology</p>
+          <span class="edu-gpa">GPAX: 3.89</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section section-contact">
+    <div class="container">
+      <p class="section-tag reveal">Let's Connect</p>
+      <h2 class="section-title reveal">Get In Touch</h2>
+      <p class="section-sub reveal">
+        Looking for interns or collaborators for a web / software / automation project?
+        I'd love to hear from you.
+      </p>
+
+      <div class="contact-grid">
+        <a class="contact-card reveal" href="tel:+66909610635">
+          <div class="contact-icon">📞</div>
+          <div>
+            <span class="contact-label">Phone</span>
+            <span class="contact-value">+66 90-961-0635</span>
+          </div>
+        </a>
+        <a class="contact-card reveal" href="mailto:Nutto.wuttichay14@gmail.com">
+          <div class="contact-icon">✉️</div>
+          <div>
+            <span class="contact-label">Email</span>
+            <span class="contact-value">Nutto.wuttichay14@gmail.com</span>
+          </div>
+        </a>
+        <a class="contact-card reveal" href="https://github.com/NuttoWuttichay" target="_blank" rel="noopener">
+          <div class="contact-icon">💻</div>
+          <div>
+            <span class="contact-label">GitHub</span>
+            <span class="contact-value">@NuttoWuttichay</span>
+          </div>
+        </a>
+        <div class="contact-card reveal">
+          <div class="contact-icon">📍</div>
+          <div>
+            <span class="contact-label">Address</span>
+            <span class="contact-value">Chatuchak, Bangkok 10900, Thailand</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <p>© <span id="year"></span> Wuttichay Phonkunthod. Built with HTML, CSS & JavaScript.</p>
+    <a href="#home" class="back-top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
